@@ -1,0 +1,7 @@
+i/o stream-input/output stream
+int means initialize??
+
+try-catch, try-finally:finally will run with or without errors, so we always close are streams (closing streams is supes important)
+
+scanner class- must first create an object of scanner class "Scanner myObj = new Scanner(System.in)" "myObj.nextLine()"
+scanner class has many methods

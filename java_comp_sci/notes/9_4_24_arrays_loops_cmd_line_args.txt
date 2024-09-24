@@ -1,0 +1,68 @@
+Arrays:
+****can be made two ways: indirect and direct (see slide 1)
+int arr[]={
+    1,
+    2,
+    3,
+        };   ***makes an array with stored info already of length 3
+****or
+int arrTwo[] = new int[3]; ***makes an array of length 3
+
+****to add data
+
+arrTwo[0]=1;
+arrTwo[1]=2;
+arrTwo[2]=3;
+
+**** can hold any primitive data type and in many cases non-prim data
+
+Conditionals: if/else, else if
+if (x>2 true/false){
+    your code here
+} else if(x<2 true/false){
+    your code here
+} else{
+    your final code here
+}
+*** if (false): shouldnt ever run
+
+Loops:
+while loops: simplest form of loop.
+*** has a boolean condition its checking, once it goes through it's code block it goes back to the while a checks again.
+***
+
+For loop: more refined, count based loop. 
+for(int = 0; i < arr.length; i++){
+    code shit
+}
+*** likely will use this more than while loop since we can condense our loops more. i-- and i++ to increment either direction
+
+for each loop: also called enhanced for loop, more similar to python 
+for(int i:array){
+    do stuff
+}
+
+== (in python)
+for i in array: 
+    do stuff
+**** most languages that use a for each element structure call it something similar to a for each, good for more simple coverage
+**** handles scaling well (what is meant by scaling???)
+**** for each loops dont let you edit array size- will give you an error
+
+CMD line:
+**** for development the command line is essential
+**** there are often gui workarounds for any given tool, but by using these cheats all the time you run the risk of
+    >you may never learn cmd line, and will miss out on on better tools right after their conception
+    > sacrifice speed and efficiency
+    >will be required in this class
+    > $cd<some directory>
+    > look up some basics and write them down
+    > pwd =print working directory
+    > ls = shows you everything in your current location (-a shows hidden files)
+    > rm some file 
+    >rm -rf =very dangerous command  never ever ever ever use rm-rf/* because it literally nukes every single thing on your computer
+    >ask patriarchy man how to add that block so my dumbass doesn't accidentally delete everything
+
+CMD line arguments: part of boiler plate (String[] args)
+string args= command line args
+

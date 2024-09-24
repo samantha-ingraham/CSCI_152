@@ -1,0 +1,23 @@
+java notes 8/26/24
+
+file creation needs .java
+depending on editor may come with boilerplate
+boilerplate= shit you always need to make the file work. nothing can be done without them
+second part of boiler plate, creating main method. not just main like in python.
+"public static void main(String[] args){}"-- every java program requires
+public=access modifier, program compiler cant read it without.
+static is a non access modifier. 
+void- return type that return nothing/void
+main- method name, entry point for program
+string[]- expected argument for main method
+args- name of the argument, everything needs an argument type, no inference in java
+comments
+// single line
+/* multiline
+ * happens
+ * like this
+ * star slash terminates
+ */
+
+ java- a lot more complex to get some of the same results as python
+ however, you can change the fundamental fabric of the program in your boiler plate, and java offers way more customization

@@ -1,0 +1,39 @@
+file creation, main method, data types, system class
+
+boilerplate code: required for any and every java program, sometimes longer than the actual code
+
+file creation: needs .java extension, and bare minimum boilerplate stuff. ***must have public class with a name that matches the file. 
+
+java is compiled ***check meaning***
+
+the main method is not just main:" public static void main(String[] args){} " basically acts as if name = main??
+every program needs one, could be considered part of boiler plate
+public-access modifier
+static-access modifier
+void- return type
+main-method name
+String[]-expected argument
+args-
+
+python infers types, modern java can if you use let or bar, however in this course we will not be. therefore, java does not infer types. 
+you will have to define your data type always, and you rarely will change the type. by defining them from the outset you avoid many of java's funkiest errors
+
+
+primitive data types:
+shorts are rarely used. they are 2 bytes long, short numbers. 
+longs are used for seeding rng and when referring to time. (time is stored in milliseconds since jan 1 1969)
+floats store to 7 decimals. doubles store to 15 decimals
+8bits=1byte
+
+
+non-primitive data types
+Strings-arrays of characters, really functions more like a class. strings come with a ton of extra methods.
+arrays- can be treated as a data types. important for classes
+classes/custom data types: everything you create can later be invoked as a data type
+
+missed slides until the dreaded semi colon
+
+java is very strict about formatting, not where things are on the page, a semi colon is required at the end of every line. 
+structural lines are {} around blocks of codes, sort of. 
+the semicolon error will not really show up bc the java compiler is a fickle bitch.
+

@@ -1,0 +1,39 @@
+multi dimensional arrays
+two ways to build
+indirect: "int[] arr= new int[3];" - empty array length three for INTS
+direct: "int[] arr = {1,2,3};" - filled array of length three for INTS
+required for every array " type[] arrayname = size either "new type[length];" or "{info,you're,filling,with};"
+
+java arrays are fixed size- cannot make them smaller or bigger, so build them with a lot of extra room usually
+java arrays do not use negative indices, can't use -1 to get last element
+java arrays can only hold one data type at a time, whatever you have declared as it's type at the beginning
+
+array lists are a thing- much more similar to python list/arrays
+
+
+quick review of loops: 3 main type, for each loops, while loops, and for loops
+will likely use while loops the most
+
+multi-dimensional arrays*******: array of arrays of arrays
+"data_type[1st dimension][2nd dimension][]...[nth dimension] array_name = new data_type[size 1][size 2][size...]...[nth dim size];"
+eg 2 dim "int[][] twodarr= new int[10][20];"
+eg 3 dim "int[][][] threedarr= new int[10][10][30];"
+
+see slides for direct method and indirect
+
+***easy to use up a shit ton of memory
+
+setting values: "array_name[row index][column index]= value;"
+
+***trivia: lengths of arrays don't have to match, can make jagged arrays if you want when declaring arrays directly,
+the inner array lengths dont need to match, on can be 4, one can be 5, and java will keep them at their own length rather 
+than setting all inner arrays to the same length(the longest one)*****
+
+use nested for loops to print out all input from arrays *** see slides for examples***
+
+
+
+
+
+questions:  would arrays be considered mutable or immutable? can i change the info once it has been set the first time?
+            can i delete all the info and have it be full of empty positions? can i overwrite info?

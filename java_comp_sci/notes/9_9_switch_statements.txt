@@ -1,0 +1,43 @@
+switch statements
+
+SWITCH STATEMENTS help avoid huge if else statements- just for us, compiler treats it the same as a huge if else statement so doesnt save run time
+
+"switch(expression-not boolean) {
+    case x:
+        //code block
+        break;
+    case y:
+        //code block
+        break;
+    default:
+        // code block"
+}
+
+***putting most likely cases near top will actually save run time
+**break statements aren't required, but the rest of the cases will also be checked if you don't have a break statement
+**if you want something to run at the end every time, don't use break statements
+***helpful for user input
+
+****most helpful bit is it lets you know when there are duplicate cases.
+
+conditional operators: some people like, some people dislike- only works on boolean. ternary operator(atcs of 3 operands)
+
+example:
+
+(some expression) ? "what i want if expression=true" : "what i want if expression=false"
+
+Boolean darkmode = false
+
+String textcolor = (darkmode) ? "white" : "black"
+
+
+****structure={}
+if a structure only has one line of code you can omit curly braces.
+eg
+if(true) System.out.println();
+
+if(true)
+    system.out.println();
+
+if(true) {system.out.println()};
+
