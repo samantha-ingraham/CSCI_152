@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class App {
+public class go {
 
     static String[][] goBoard = new String[10][10]; //builds the board as an empty 2d array
     public static void main(String[] args) throws Exception {
