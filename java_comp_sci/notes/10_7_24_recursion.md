@@ -15,6 +15,27 @@ errors:
 
 see slides for examples week 6
 
+10/9/24
+
+**Direct and indirect**
+    direct-function fun *calls the same function* fun in itself
+    indirect- function fun *calls a different function, and then calls the original function within that original function* eg fun calls fun_new which calls fun 
+
+**for the time being, avoid indirect recursion**
+
+Factorial Function with recursion
+
+Factorial function with recursion
+    1 if n=1     **base case**
+    n*(n-1)*(n-2)...(n-(n-1))= n!
+    or
+    n*factorial (n-1) **recursive statement/step**
 
 
+**steps for developing a recursive function**
+    1. find simplest case
+    2. work through several cases past the simplest one
+    3. attempt to couple harder cases and easier ones and observe any patterns
+    4. generalize any patterns and create a solution
 
+*tree traversal can be solved recursively*

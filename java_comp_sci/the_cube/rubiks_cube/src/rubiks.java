@@ -42,9 +42,9 @@ public class rubiks {
         //todo}
     public static String[][] buildcube(){
         String[][] cube = {
-                            {null,null,null,"W","W","W",null,null,null,},
-                            {null,null,null,"W","W","W",null,null,null,},
-                            {null,null,null,"W","W","W",null,null,null,},
+                            {"W","W","W",
+                            "W","W","W",
+                            "W","W","W"},
 
                             {"B","B","B",
                             "B","B","B",
@@ -58,13 +58,13 @@ public class rubiks {
                             "G","G","G",
                             "G","G","G"},
 
-                            {null,null,null,"R","R","R",null,null,null,},
-                            {null,null,null,"R","R","R",null,null,null,},
-                            {null,null,null,"R","R","R",null,null,null,},
+                            {"R","R","R",
+                            "R","R","R",
+                            "R","R","R"},
 
-                            {null,null,null,"O","O","O",null,null,null,},
-                            {null,null,null,"O","O","O",null,null,null,},
-                            {null,null,null,"O","O","O",null,null,null,}
+                            {"O","O","O",
+                            "O","O","O",
+                            "O","O","O"}
         };
         return cube;
     }
@@ -101,18 +101,32 @@ public class rubiks {
     //public static void playgame(){
         //todo}
     public static void display(String[][] cube){
-
         for ( int i=0; i<cube.length; i++){
+            if (i==0||i==4||i==5){
                 for (int j= 0; j<cube[i].length; j++){
-                    if (j%3 ==0)System.out.println();
-
-                    System.out.print(cube[i][j]+" ");
-        
-
+                    if (j==0||j==3||j==6){
+                        System.out.println();
+                        System.out.print("      "+cube[i][j]+" ");
+                    }
+                    else{
+                        
+                        System.out.print(cube[i][j]+" ");
+                        }
                 }
                 System.out.println();
             }
+            else{
+                int q=0;
+                for (int j=1; j<4; j++){
+                    for (int h=q; h<q+3; h++){
+                        System.out.print(cube[j][h]+" ");
+                    }
+                    if (j%3 ==0)System.out.println();
+                    q+=3;
+                }
+            }
         }
+    }
     public static String checkcube (String[][] play_cube){
         String[][] test_cube=buildcube();
         for ( int i=0; i<test_cube.length; i++){
