@@ -8,8 +8,8 @@ public class rubik {
     static ArrayList<String> solution = new ArrayList<String>();
 
 
-    static void move(String[][] c, String move){
-        switch (move.toUpperCase()) {
+    static void turn_cube(String[][] c, String move){
+        switch (move) {
             case "U":
                 solution.add("U'");
                 //TODO
