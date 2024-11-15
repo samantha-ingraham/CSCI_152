@@ -1,0 +1,40 @@
+- Inheritance is a fundamental concept in object-oriented programming.
+- It allows a class (subclass) to inherit properties and methods from another class (superclass).
+- The subclass can add its own properties and methods in addition to the inherited ones.
+- Inheritance promotes code reusability and establishes a natural hierarchy between classes.
+- Java uses the `extends` keyword to denote inheritance.
+- A subclass can override methods of the superclass to provide specific implementations.
+- Constructors are not inherited, but a subclass can call the superclass constructor using `super()`.
+- Java supports single inheritance, meaning a class can only inherit from one superclass.
+
+subclasses-> child classes
+base class->parent class
+
+keyword 'extends' tell compiler to not only do parent class stuff but to also do child class stuff
+
+keyword for inheritance: extends
+create inheritance enable programs
+
+keyword: super 
+refers to immediate parent classes object.
+
+acces modifiers refresh:
+
+public: accessible by all classes
+private: available in declared class/local scope
+default: available only in the same package
+protected: family tree private. only accessible by same class and subclasses
+
+review types of inheritance: hierarchial inheritance, hybrid, etc..
+multiple inheritance is an option in some languages, but not Java
+
+can only extends one class, such as kid_class could extend parent_class, but not stepparent_class
+
+disadvantages: 
+
+    creates additional lag. slows down your performance. it essentially making a new version of that class each time you do it. 
+
+    some of the data members of the parent class may not be useful to the childclass, and waste memory. so dont have a parent with 15 children,
+
+    inheritance causes a really strong coupling, which prevents the classes from working on their own. You should, for the most part, want you code to stand on it's own. 
+

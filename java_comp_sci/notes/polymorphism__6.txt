@@ -1,0 +1,45 @@
+polymorphism
+4 pillars of oop
+
+polymorphism trends more towards large projects
+
+4 pillars- encapsulation, inheritance, abstraction, polymorphism**** probably test question
+
+polymorphism is essential but often overlooked
+
+polymorphism is the ability for something to take on many forms.
+    give one unified concept the ability to be redefined for many other things
+    eg: concept of a figure, can be taken in by functions, etc. 
+    figure has its own methods to make a thing
+    whatever it can make can also be passed into a thing, since each of the things that can accept a figure is accepting what those methods make
+
+abstract is a non-access modifier
+    used for classes and methods
+    not touched directly
+    abstract class: restricted class that cannot be used to create objects(must be inherited from parent class)
+    abstract method: can only be used in inherited classes, not directly. 
+
+    abstract class can have both abstract and regular methods, occupies some name space so it can be defined by a later program. 
+
+why use abstract: the ask whoever extends them to define abstract methods.
+
+more useful terms
+
+can be used to establish commonalities between all subclasses (see 11/6 ppt) and the specifics of the specific subclass.
+eg: astract class covers all animals. all animals have the same normal method of sleep sound and astract method of awake sound
+normal subclass that extends animal is called pig. it describes the abstract method from animals as oink oink
+
+now when pig is called in main, it has the common noise (zzzz) and the individual awake noise (oink oink)
+
+interfaces*******************
+an interface is a completely abstract class
+
+to access the methods of an interface, it must be implemented
+Syntax: implements - acts extremely similar to
+**luther calls them adapters- they force a class to take a certain shape. 
+not the most useful for small projects
+they do a good job of self documenting code
+and add "rails" for adding extra shit later
+eg: you might have an npc class, but want certain kinds to act different. you can use an interface to make your individual types of npc use the same methods to move by interfacing it with your npc class
+YOU CAN HAVE MULTIPLE INTERFACES seperated by commas. 
+

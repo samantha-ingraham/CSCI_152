@@ -1,4 +1,3 @@
+public class cat implements inter_feed {
 
-public class cat {
-    
 }
